@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="app.js"></script>
+</head>
+<body>
+    
+    <canvas id="lienzo" width="700" height="500"></canvas>
+
+    <form action="index.html" method="post">
+
+        <span>X:</span>
+        <input type="number" name="x" id="x" min="0" max="600">
+    
+        <span>Y:</span>
+        <input type="number" name="y" id="y" min="0" max="400">
+        <br>
+    
+        <label for="cuadrado">cuadrado</label>
+        <input type="radio" name="figura" id="cuadrado">
+        <br>
+
+        <label for="triangulo">triangulo</label>
+        <input type="radio" name="figura" id="triangulo">
+        <br>
+
+        <label for="circulo">circulo</label>
+        <input type="radio" name="figura" id="circulo">
+        <br>
+    
+        <label for="color">color</label>
+        <input type="color" name="color" id="color">
+        <br>
+
+        <label for="num">Número Figuras</label>
+        <input type="number" name="num" id="num" min="1">
+        <br>
+
+        <label for="borrar">borrar</label>
+        <input type="radio" name="figura" id="borrar">
+
+        <label for="ancho">ancho</label>
+        <input type="number" name="ancho" id="ancho" min="0" max="700">
+
+        <label for="alto">alto</label>
+        <input type="number" name="alto" id="alto" min="0" max="500">
+        <br>
+
+
+
+        <input type="button" value="envia" id="envia">
+
+    </form>
+
+
+
+
+</body>
+</html>
